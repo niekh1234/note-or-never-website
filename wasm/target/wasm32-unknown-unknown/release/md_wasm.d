@@ -1,1 +1,0 @@
-/home/niek/Desktop/programming/next/markdown-notes/note-or-never-website/wasm/target/wasm32-unknown-unknown/release/md_wasm.wasm: /home/niek/Desktop/programming/next/markdown-notes/note-or-never-website/wasm/src/lib.rs
