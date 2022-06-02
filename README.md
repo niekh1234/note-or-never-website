@@ -3,7 +3,7 @@
   <img src="https://github.com/niekh1234/note-or-never/raw/master/assets/logo.png" />
   
   <p>
-    Website for note or never [https://noteornever.app](https://noteornever.app)
+    Website for note or never https://noteornever.app
   </p>
 
 <!-- Badges -->
