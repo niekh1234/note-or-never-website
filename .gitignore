@@ -35,6 +35,5 @@ yarn-error.log*
 *.tsbuildinfo
 
 # wasm files
-/wasm/target
 /wasm/Cargo.lock
 /db/data
