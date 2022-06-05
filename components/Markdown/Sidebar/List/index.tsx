@@ -9,6 +9,7 @@ interface SidebarListProps {
 
 const SidebarList = ({ notes }: SidebarListProps) => {
   const { selected } = useAppSelector((state) => state.notes);
+  const router = useRouter();
 
   return (
     <div className='space-y-2'>
@@ -16,7 +17,7 @@ const SidebarList = ({ notes }: SidebarListProps) => {
         <SidebarListItem
           key={note.id}
           note={note}
-          isActive={note.id === selected?.id}
+          isActive={router.pathname !== '/' && note.id === selected?.id}
         ></SidebarListItem>
       ))}
     </div>
