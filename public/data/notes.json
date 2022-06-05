@@ -23,6 +23,14 @@
       "createdAt": "2022-05-24T18:20:33.534Z",
       "updatedAt": "2022-05-24T18:20:33.534Z",
       "view": "P"
+    },
+    {
+      "id": "roadmap",
+      "title": "Roadmap",
+      "content": "# Roadmap\n\n## :bangbang: High priority:\n\n- Directories / grouping / labelling. Some way to organize notes into chunks.\n- UX research and improvements.\n\n## :clock10: Low priority\n\n- Serverless setup using Github repositories, where you would be able to login using github and store notes in markdown files on github.\n- Smart markdown parsing.\n- Custom editor.\n",
+      "createdAt": "2022-05-24T18:20:32.534Z",
+      "updatedAt": "2022-05-24T18:20:32.534Z",
+      "view": "P"
     }
   ]
 }
