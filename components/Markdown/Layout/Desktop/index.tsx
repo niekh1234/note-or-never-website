@@ -19,7 +19,7 @@ const DesktopMarkdownLayout = () => {
       if (activeNote) {
         dispatch(setSelected(activeNote));
       } else {
-        dispatch(setSelected(notes.items[0]));
+        router.push('/homepage');
       }
     }
   }, [router, router.query.handle, notes?.items]);
