@@ -12,7 +12,7 @@ const SidebarList = ({ notes }: SidebarListProps) => {
   const router = useRouter();
 
   return (
-    <div className='space-y-2'>
+    <div className='flex flex-col space-y-2'>
       {notes?.map((note: Note) => (
         <SidebarListItem
           key={note.id}
