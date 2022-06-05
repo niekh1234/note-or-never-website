@@ -100,6 +100,7 @@ const SidebarListItem = ({ note, isActive }: SidebarListItemProps) => {
                 >
                   <button
                     type='submit'
+                    onClick={(e) => e.stopPropagation()}
                     className={classNames(
                       'absolute right-0 p-1 rounded ',
                       isActive ? 'hover:bg-gray-400' : 'hover:bg-gray-500',
